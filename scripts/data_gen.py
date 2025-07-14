@@ -2,10 +2,8 @@
 # I need to track the top-level KPIs such as actual sales, variance to forecast, period-over-period change, and order processing time. 
 # The dashboard should visualize sales trends over time, compare sales volume by product category, 
 # and show the geographic distribution of sales across regions. 
-# Additionally, I want to analyze 
-# sales variance by product to help diagnose performance drivers and identify areas for improvement.
-
-# Therefore, in this script, I will generate synthetic sales data for the dashboard.
+# Additionally, I want to analyze sales variance by product to help diagnose performance drivers and identify areas for improvement.
+# Therefore, in this script, I will generate synthetic sales data for the dashboard, using pandas and numpy ONLY.
 
 
 import pandas as pd
