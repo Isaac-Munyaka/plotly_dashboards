@@ -1,10 +1,16 @@
-#The Overall goal of this project is to create a dashboard to provide a complete overview of global sales performance, for company x. 
+#The Overall goal of this project is to create a dashboard to provide a complete overview of global sales performance, for a Fast food Joint. 
+
+
 # I need to track the top-level KPIs such as actual sales, variance to forecast, period-over-period change, and order processing time. 
 # The dashboard should visualize sales trends over time, compare sales volume by product category, 
 # and show the geographic distribution of sales across regions. 
+
 # Additionally, I want to analyze sales variance by product to help diagnose performance drivers and identify areas for improvement.
 # Therefore, in this script, I will generate synthetic sales data for the dashboard, using pandas and numpy ONLY.
+# The data will include monthly sales figures, forecasts, variances, and order processing times across different product categories and regions.
+# The generated data will be saved in a structured format for easy integration into the dashboard.
 
+# The values will be realistic and varied to simulate a real-world scenario, ensuring the dashboard can effectively demonstrate insights and trends.
 
 import pandas as pd
 import numpy as np
