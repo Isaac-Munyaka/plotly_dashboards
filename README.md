@@ -2,7 +2,7 @@
 
 This project generates interactive dashboards using Python's Plotly library and exports them as static HTML files.
 
-The data used is also generated from scratch using Pandas and numpy ONLY, and stored in '.csv' and json files.
+The data used is also generated from scratch using Pandas and Numpy ONLY, and stored in .csv and json files.
 
 ## Structure
 
