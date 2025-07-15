@@ -1,3 +1,8 @@
+# This script generates a dashboard with sales data visualizations using Plotly.
+# It includes sales trends, product sales, regional sales maps, and scatter plots.
+# It creates a static HTML file for the dashboard.
+
+
 import pandas as pd
 import numpy as np
 import plotly.graph_objects as go
