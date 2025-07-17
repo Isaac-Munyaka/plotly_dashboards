@@ -17,6 +17,7 @@ outputs/
 scripts/
     data_gen.py
     viz.py
+dashboard.jpg
 ```
 
 ## How It Works
@@ -50,7 +51,7 @@ scripts/
 
 - [`scripts/data_gen.py`](scripts/data_gen.py): Generates `data/sales_data.csv` and `data/kpi_summary.json`.
 - [`scripts/viz.py`](scripts/viz.py): Builds the dashboard from generated data.
-- [`outputs/dashboard.html`](outputs/dashboard.html): The final dashboard output.
+- [`outputs/dashboard.ht9ml`](outputs/dashboard.html): The final dashboard output.
 
 ## Requirements
 
