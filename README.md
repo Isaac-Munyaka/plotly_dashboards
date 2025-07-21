@@ -18,6 +18,7 @@ scripts/
     data_gen.py
     viz.py
 dashboard.jpg
+.github/workflows
 ```
 
 ## How It Works
