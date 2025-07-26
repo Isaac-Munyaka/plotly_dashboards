@@ -19,6 +19,7 @@ scripts/
     viz.py
 dashboard.jpg
 .github/workflows
+.gitignore
 ```
 
 ## How It Works
