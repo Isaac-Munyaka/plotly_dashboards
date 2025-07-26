@@ -1,0 +1,36 @@
+# Ignore sensitive script
+upload_v3.py
+# Python bytecode
+__pycache__/
+*.py[cod]
+*.pyo
+
+# Virtual environment
+env/
+venv/
+ENV/
+
+
+
+# VSCode settings 
+.vscode/
+ 
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+
+
+# Sensitive or temp files
+upload_v3.py
+*.env
+*.secret
+*.bak
+
+
+
+# Dependency management
+pip-log.txt
+
+
