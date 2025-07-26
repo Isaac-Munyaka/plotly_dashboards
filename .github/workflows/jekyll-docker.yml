@@ -27,4 +27,8 @@ jobs:
       run: |
         docker run \
         -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
-        jekyll/builder:latest /bin/bash -c "gem install html-proofer && htmlproofer /srv/jekyll/_site --disable-external"
+        jekyll/builder:latest /bin/bash -c "gem install html-proofer \
+        export PATH=$PATH:/usr/local/bundle/bin && \
+        htmlproofer /srv/jekyll/_site --disable-external"
+
+  
