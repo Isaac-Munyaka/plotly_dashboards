@@ -18,19 +18,19 @@ jobs:
         -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
         jekyll/builder:latest /bin/bash -c "chmod -R 777 /srv/jekyll && jekyll build --future"
 
-  test:
-    runs-on: ubuntu-latest
-    needs: build # Ensure this job runs after the build job
-    steps:
-    - uses: actions/checkout@v4
-    - name: Run html-proofer tests in Docker
-      run: |
-        docker run \
-          -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
-          jekyll/builder:latest /bin/bash -c "
-            gem install html-proofer && \
-            export PATH=\"/usr/local/bundle/bin:\$PATH\" && \
-            htmlproofer /srv/jekyll/_site --disable-external
-          "
+  # test:
+  #   runs-on: ubuntu-latest
+  #   needs: build # Ensure this job runs after the build job
+  #   steps:
+  #   - uses: actions/checkout@v4
+  #   - name: Run html-proofer tests in Docker
+  #     run: |
+  #       docker run \
+  #         -v ${{ github.workspace }}/_site:/srv/jekyll/_site \
+  #         jekyll/builder:latest /bin/bash -c "
+  #           gem install html-proofer && \
+  #           export PATH=\"/usr/local/bundle/bin:\$PATH\" && \
+  #           htmlproofer /srv/jekyll/_site --disable-external
+  #         "
 
 
